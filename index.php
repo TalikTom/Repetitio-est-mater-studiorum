@@ -4,7 +4,9 @@
 
 $randomNumber = rand(0,2);
 
+$greeting = ['Hola', 'Hey', 'Wassup'];
+
 $celestialObject = ['planet', 'moon', 'star'];
 
-$greeting = "Universe";
-echo "hello {$celestialObject[$randomNumber]}";
+
+echo "{$greeting[$randomNumber]} {$celestialObject[$randomNumber]}";
