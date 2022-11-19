@@ -9,6 +9,10 @@ $greeting = ['Hola', 'Hey', 'Wassup'];
 
 $celestialObject = ['planet', 'moon', 'star'];
 
+$names = ['marija', 'luka', 'milena', 'arsen'];
+
 require 'index.view.php';
+
+
 
 
