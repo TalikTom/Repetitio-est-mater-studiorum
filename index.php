@@ -40,7 +40,7 @@ $task = [
 
 class todoTask {
 
-    protected  $description;
+    public $description;
 
     protected  $completed = false;
 
@@ -53,15 +53,28 @@ class todoTask {
 
     }
 
-    public function
+    public function isComplete()
+    {
 
+        return $this->completed;
+
+    }
+
+
+    public function complete()
+    {
+        $this->completed = true;
+    }
 }
 
-$todoTask = new todoTask('Go to the store');
+$todoTask = new todoTask('Go to the store'); // a new todotask object
 
+$todoTask->complete(); // complete the todotask
 
+dd($todoTask->isComplete()); // check if the todotask is completed
 
 require 'index.view.php';
+
 
 
 
