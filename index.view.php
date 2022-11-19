@@ -22,7 +22,7 @@
 
     <h1>
 
-        <?= 'Hello World'; ?>
+        <?= "{$greeting[$randomNumber]} {$celestialObject[$randomNumber2]}" ?>
 
     </h1>
 
