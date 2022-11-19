@@ -15,11 +15,11 @@ $names[]= 'petar';
 
 $person = [
     'age' => 31,
-    'hair' => 'brown',
+    'hair' => 'black',
     'career' => 'web developer'
 ];
 
-$person['height'] = 172;
+$person['height'] = 180;
 
 function dd($value) {
     echo "<pre>";
@@ -29,7 +29,16 @@ function dd($value) {
 
 };
 
-dd($person);
+//dd($person);
+
+$task = [
+
+    'title' => 'Finish homework',
+    'due' => 'today',
+    'assigned_to' => 'Luka',
+    'completed' => true
+
+];
 
 
 

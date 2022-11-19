@@ -47,6 +47,23 @@
 
     </ul>
 
+    <ul>
+
+        <?php foreach ($task as $key => $value) : ?>
+
+            <li>
+
+                <strong><?= ucwords($key); ?>: </strong> <?= $value ?>
+
+            </li>
+
+        <?php endforeach; ?>
+
+        <li><strong>Title: </strong><?= $task['title']; ?></li>
+        <li><strong>Title: </strong><?= $task['completed'] ? 'Yes' : 'No'; ?></li>
+
+    </ul>
+
 </header>
 
 </body>
