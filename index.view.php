@@ -82,7 +82,13 @@
             <strong>Status: </strong>
 
             <?php if($task['completed']) : ?>
+
                 <span class="icon">&#9989;</span>
+
+            <?php else : ?>
+
+                <span class="icon">&#10062;</span>
+
              <?php endif ?>
 
         </li>

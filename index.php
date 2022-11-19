@@ -36,7 +36,7 @@ $task = [
     'title' => 'Finish homework',
     'due' => 'today',
     'assigned_to' => 'Luka',
-    'completed' => true
+    'completed' => false
 
 ];
 
