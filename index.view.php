@@ -62,6 +62,31 @@
         <li><strong>Title: </strong><?= $task['title']; ?></li>
         <li><strong>Title: </strong><?= $task['completed'] ? 'Yes' : 'No'; ?></li>
 
+        <li>
+            <strong>Status: </strong>
+            <?php
+
+
+                if($task['completed']) {
+                    echo '&#9989;';
+                } else {
+                    echo 'Incomplete';
+                }
+
+
+            ?>
+        </li>
+
+
+        <li>
+            <strong>Status: </strong>
+
+            <?php if($task['completed']) : ?>
+                <span class="icon">&#9989;</span>
+             <?php endif ?>
+
+        </li>
+
     </ul>
 
 </header>
