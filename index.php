@@ -1,5 +1,7 @@
 <?php
 
+require "functions.php";
+
 //create randomly generated greeting
 
 $randomNumber = rand(0,2);
@@ -21,15 +23,8 @@ $person = [
 
 $person['height'] = 180;
 
-function dd($value) {
-    echo "<pre>";
-    var_dump($value);
-    echo "</pre>";
-    die();
 
-};
 
-//dd($person);
 
 $task = [
 
