@@ -8,16 +8,6 @@ function dd($value) {
 
 };
 
-function connectToDb() 
-
-{
-    try {
-    return new PDO('mysql:host=localhost;dbname=mytodo','root', '');
-    } catch (PDOException $e) {
-        die($e->getMessage());
-    }
-
-};
 
 function fetchAllTasks($pdo) {
 
